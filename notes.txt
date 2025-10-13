@@ -91,3 +91,21 @@ Log Out 🚪
       Enter Your Credentials 🔑
       
       Log in using your credentials (email and password set earlier).
+
+
+
+------------------------------------------------------------------------------------------LAB 1------------------------------------------------------------------------------------------------------
+TYPES OF OPERATING SYSTEM : WINDOW ,MACOS,LINUX.UBUNTU,REDHAT, SUSE LINUX ETC..
+
+LAB1: CREATION OF LINUX  SERVER USING EC2 SERVICE
+1. CLICK ON SERVICES , GOTO COMPUTE CATEGORY COMPUTE CLICK ON SELECT EC2 ,CLICK  ON RUNNING INSTANCES CLICK ON LAUNCH INSTANCE 
+
+2.IN NAME AND TAGS ENTER THE NAME AND TAGS ENTER THE NAME OF SERVER (LINUXSERVER1)
+3. IN APPLICATION AND OS IMAGES ,SELECT THE AMI (aws LINUX)
+4.IN KEY PAIR LOGINS SELECT THE DEFAULT PAIR VOCKEY
+4 IIN NETWORK SETTINGS CLICK ON EDIT , ADD SECURITY GROUP RULE(http,https)
+5. SCRLL DOWN CLICK INSTACE CLIC ON VIEW ALL INSTANCES SEKECT THE LINUX SERVER 1 , CLICK ON CONECT,and execute the following commands for linux server
+sudo su - 
+yum update 
+yum install nginx -y
+service nginx start
