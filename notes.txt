@@ -1,0 +1,30 @@
+list of cloud service providers:
+1.aws
+2.gcp
+3.oracle
+4.ibm
+5.azure
+6.alibaba
+7.mi cloud
+
+cloud computing:
+on delivery of IT resources(servers ,storage ,analytics,databases,networking ,secutity)
+via the internet pay as zero pricing
+
+AWS cloud computing:
+AWS is secure cloud platform with offering diffrenrt cloud services
+servers ,storage ,analytics,databases,networking ,secutity.
+
+three types of cloud services 
+1.SAAS--> software as a service(provide only software tools to clients ex:ZOOM,SalesForce)
+2. PAAS -->platform as a service(GOOGLE SEARCH ENGINE)
+2.IAAS-->Infrastructure as a service(AWS, azure ,google cloud )-->host a server a website
+
+
+EC2 (elastic compute cloud)-->nothing but the server /virtual machine
+ec2 is easy to extend
+
+AWS account creation:
+1.open gmail, select the course invitation mail an open ,click on get started
+2.Click on create my account ,select the time zone (05:30+)
+3.set the password(gmail password)
