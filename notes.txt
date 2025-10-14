@@ -150,7 +150,13 @@ goto ec2 dashboard click on elastic ips,click on create on allocate .
 -------------------------------------------------------------------------task 3 --------------------------------------------------------------------------------------------------------------------
 create elastic ipadresss to linux and check it
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+create a load balancder
+for 2 or more server
+1. create a linux server ,and connect and execute the commands and check the public ip address
+2. create a ubuntu sever check public ipv4 address 
+3.goto to ec2 dashboard,click on load balancer ,click on load balancer ,click on create load balancer ,select the load balancer type
+(network load balancer )
+4. enter the load balancer name(my loadbalancer1)
 
 
 
