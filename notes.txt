@@ -147,6 +147,10 @@ goto ec2 dashboard click on elastic ips,click on create on allocate .
 3. goto ec2,select the ubuntu server ,copy the public ip address and browse it ,try to start and stop the server again it will not change
 100.28.196.63---> before stopping
 100.28.196.63->after starting again
+-------------------------------------------------------------------------task 3 --------------------------------------------------------------------------------------------------------------------
+create elastic ipadresss to linux and check it
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
