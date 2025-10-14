@@ -142,6 +142,10 @@ Elastic ip creation :
 
 54.162.151.16--->it means our server is dyankic ip web server
 184.73.131.2
+goto ec2 dashboard click on elastic ips,click on create on allocate .
+2. select the created ip address , goto actions, click on associate  ip,select the instance(ubuntu ) click on associate
+3. goto ec2,select the ubuntu server ,copy the public ip address and browse it ,try to start and stop the server again it will not change
+
 
 
 
