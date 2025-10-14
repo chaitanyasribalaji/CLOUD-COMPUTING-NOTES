@@ -133,7 +133,12 @@ window-> 30gb
 commands for ubutu to check the volume size 
  sudo su -
  lsblk
+2.select the created volume ,goto action, attach the volume,select the sever ubuntu click on attach
+3.to check volume go to ec2 dashboard click on running instances select the ubuntu server click on connect
 ---------------------------------------------------------------------------------task 2-------------------------------------------------------------------------------------------------------------
 create volume 80 gb in linux
+--------------------------------------------------------------------------------LAB5----------------------------------------------------------------------------------------------------------------
+Elastic ip creation :
+      
 
 
