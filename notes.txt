@@ -118,3 +118,6 @@ apt-get update
 apt-get  install apache 2 -y
 service apache 2 start
 
+PublicIPs: 54.162.151.16    PrivateIPs: 172.31.25.70    
+
+
