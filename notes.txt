@@ -130,4 +130,10 @@ linux->8 gb
 window-> 30gb
  my webapp size->60 gb
 1.goto ec2 dashboard,click on volumes ,click on create volume ,enter the storage size(60gb), select the volume availability zone (note:before create a volume check the server availability zone and assign the zone to created volume).
+commands for ubutu to check the volume size 
+ sudo su -
+ lsblk
+---------------------------------------------------------------------------------task 2-------------------------------------------------------------------------------------------------------------
+create volume 80 gb in linux
+
 
