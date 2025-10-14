@@ -137,7 +137,7 @@ commands for ubutu to check the volume size
 3.to check volume go to ec2 dashboard click on running instances select the ubuntu server click on connect
 ---------------------------------------------------------------------------------task 2-------------------------------------------------------------------------------------------------------------
 create volume 80 gb in linux
---------------------------------------------------------------------------------LAB5----------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------LAB 5----------------------------------------------------------------------------------------------------------------
 Elastic ip creation :
 
 54.162.151.16--->it means our server is dyankic ip web server
@@ -145,6 +145,9 @@ Elastic ip creation :
 goto ec2 dashboard click on elastic ips,click on create on allocate .
 2. select the created ip address , goto actions, click on associate  ip,select the instance(ubuntu ) click on associate
 3. goto ec2,select the ubuntu server ,copy the public ip address and browse it ,try to start and stop the server again it will not change
+100.28.196.63---> before stopping
+100.28.196.63->after starting again
+
 
 
 
