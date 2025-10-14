@@ -111,3 +111,9 @@ yum install nginx -y
 service nginx start
 --------------------------------------------------------------------------------------------TASK 1----------------------------------------------------------------------------------------------
 
+
+for ubuntu
+sudo su -
+apt -get update
+apt -get  install apache 2 -y
+service apache 2 start
