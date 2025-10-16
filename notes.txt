@@ -158,6 +158,94 @@ for 2 or more server
 (network load balancer )
 4. enter the load balancer name(my loadbalancer1)
 
+LAB 6
+
+Linux - 54.172.228.52
+
+Task 4 : Connect to Linux server and modify the default web page 
+
+
+
+Commands to modify Linux server index.html page
+
+	sudo su -
+ 	yum update
+ 	yum install nginx -y
+ 	service nginx start
+	cd /usr/share/nginx/html
+	ls
+	nano index.html
+
+ 
+
+
+Load balancer :
+
+1)Enter the Name(myloadbalancer) no Spaces should be given
+2)Select all the availability zones .
+5)In Listeners and routing select the target group (if there is no target group) Clcik on create new target group , in target group tag enter the target group(Mattarget1) and click on next . 
+6)Select the two instances (Linux and Ubuntu) and click on include as pending below , click on register targets.
+7)Go to the previous tab(Load balancer tab) . Assign the Target group , Click on create Load Balancer 
+8)Select the Load balancer , click on security , rightclick on Security Group ID , Open link in new tab , Click on edit inbound rules, Click on add Security group rule , rule type - All Trafic , Source type is anywhere IPv4 and click on save rules . 
+9)Copy the DNS name , open browser , browse it , Once it get the output we get LINUX/Ubuntu , After Refreshing the output is LINUX/Ubuntu
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+									LAB7
+ Website Hosting Using WINSCP
+Requirements :
+1)Web application 
+2)Server 
+3)WINSCP Tool
+
+Step 2: open browser,to use 
+
+Step 3: Select the downloaded webapplication(Zipped format)right click on it,click on extract here/extract all (unzip it)
+
+Step 4: open browser to use following url (download winscp),click on winscp official site,click on download,click on direct download
+
+Step 5: goto download
+
+Command for file modification 
+chmod 777 /usr/share/nginx/html
+    rwx r-x r-x == 7 5 5
+	   110 - 6 read and write(rw-)
+	   101 - 5 read and execute(r-x)
+	   100 - 4 read only permission(r--)
+	   111 - 7 read, write and execute permissiions(rwx)
+
+Owner permissions(admin)(7 - 111)
+Group permissions(6 - 110)
+Other permissions(4 - 100)
+
+Step 7: Goto EC2 Select the linux server and execute the following commands 
+   1)sudo su -
+   2)service nginx start
+   3)chmod 777 /usr/share/nginx/html
+
+chaitanya.run.place
+
+Step 8: In html folder consists of different files and folders,to select all files and folders ,delete if any error occurs(Command for file modification 
+chmod 777 /usr/share/nginx/html)
+
+Step 9: After deleting the index files and folders in rightside portin click on desktop select the website file right click on it and open select the all sub files and folders then goto the left side portion (remote server date)and paste it and click ok
+
+Step 10:After successfully open the files and folders goto ec2 copy the linux server ip address and then browse it.
+
+Lab 8:
+
+:Security groups Creation:
+
+Step 1:Goto ec2 dashboard click on security groups,click on create security group,click on edit inbound rules,click on add rules(SSH,HHTP,HTTPS,MySQL,POSTGREY SQL),sourse type is anywhereipv4 then click on save rules.
+
+Lab 9:
+
+:Storage Services(Simple Storage Services)S3:
+In s3 maximum storage size(space)
+In s3 Folder=Bucket,File=Object
+Each bucket storage(size)=0kb to 5TB
+
+
 
 
 
